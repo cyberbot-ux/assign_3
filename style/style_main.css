@@ -159,3 +159,65 @@ body {
     transform: translateY(-2px);
   }
   
+  /* ========== Mobile Responsive Adjustments ========== */
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-box, .intro-box, .card, .video-wrapper, .anime-table-container, .history-content, .college {
+    width: 100%;
+    max-width: 95%;
+    margin: 20px auto;
+  }
+
+  .language-table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .anime-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .anime-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .board {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .cell {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+
+  .controls button {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+}

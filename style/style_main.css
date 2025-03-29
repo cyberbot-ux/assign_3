@@ -1,0 +1,161 @@
+/* Body & Page Setup */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
+  /* Page Title */
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-top: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Navigation Bar */
+  .navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+  }
+  
+  .nav-link {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .nav-link:hover {
+    background-color: #e6f0ff;
+    transform: translateY(-2px);
+  }
+  
+  /* Intro Box */
+  .intro-box {
+    background-color: #fff;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section Heading */
+  .section-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Image Cards */
+  .image-box {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px dashed #007bff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .profile-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caption {
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  /* Flex Container for Cards */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  /* Individual Card */
+  .card {
+    background-color: #ffffff;
+    border: 2px dashed #007bff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* Programming Language Table */
+  .language-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .language-table td {
+    border: 2px dashed #007bff;
+    padding: 10px;
+    transition: background-color 0.3s;
+    background-color: #ffffff;
+  }
+  
+  .language-table td:hover {
+    background-color: #e6f0ff;
+  }
+  
+  /* Back to Top Button */
+  .back-top {
+    text-align: center;
+    margin: 50px 0 30px;
+  }
+  
+  .back-top a {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .back-top a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  

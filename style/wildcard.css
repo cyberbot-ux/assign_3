@@ -1,0 +1,78 @@
+.game-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-left: 5px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.game-section h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-screenshot {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-section a {
+    color: #007bff;
+    font-weight: bold;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.scoreboard {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 30px auto;
+}
+.list{
+    
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 2px solid #444;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
